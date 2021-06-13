@@ -1,0 +1,25 @@
+{
+  "name": "cloudfront-ip-security-group-update-lambda",
+  "version": "1.0.0",
+  "description": "Fetch CloudFront IP Adresses and Update Security Group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cfn-response": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarodelvalle/cloudfront-ip-security-group-update-lambda.git"
+  },
+  "author": "Alvaro Del Valle",
+  "license": "SEE LICENSE IN cfn-response.js",
+  "bugs": {
+    "url": "https://github.com/alvarodelvalle/cloudfront-ip-security-group-update-lambda/issues"
+  },
+  "homepage": "https://github.com/alvarodelvalle/cloudfront-ip-security-group-update-lambda#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.878.0"
+  }
+}
